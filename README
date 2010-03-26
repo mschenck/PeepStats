@@ -1,0 +1,6 @@
+The goal is to create a simple system statistics gathering tool that is very light on the system(s) you’re monitoring that’s also very easy to use.
+
+PeepStats will consist of a poller and an agent. Since we want to be nice to our servers, the bulk of the workload should be on the monitoring machines, right?
+
+The agent will stay thin, but should be easy to add monitoring to.
+As for the poller … I don’t know yet, I’ll probably make a module for a greater monitoring framework.
